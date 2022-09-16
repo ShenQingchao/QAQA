@@ -1,4 +1,4 @@
-# <center>QAQA</center>
+# QAQA
 
 QAQA is a tool using novel sentence-level mutation based metamorphic testing, which can precisely detect bugs in
 QA software.
