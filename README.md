@@ -34,14 +34,18 @@ python run.py project_name  # valid project_name are 'boolq', 'squad2', 'narrati
 ```
 
 
-
-
-
-
-
 ----
 
 ## Manual Labeling Results
 
 For the results of manual labeling about **false positive** and **naturalness** , it were placed in the directory [labeling_results](./labeling_results)
 
+-----
+
+## Citation
+Please cite our paper if the work is useful for you.
+```
+Qingchao Shen, Junjie Chen, Jie M. Zhang, Haoyu Wang, Shuang Liu, and Menghan Tian. 2022. Natural Test Generation for Precise Testing of
+Question Answering Software. In 37th IEEE/ACM International Conference on Automated Software Engineering (ASE ’22), October 10–14, 2022, Rochester, MI, USA. ACM, New York, NY, USA, 12 pages. https://doi.org/10.1145/3551349.3556953
+
+```
