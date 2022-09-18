@@ -1,7 +1,6 @@
 # QAQA: Natural Test Generation for Precise Testing of Question Answering Software
-QAQA is a QA software testing technique. It can generate natural test inputs and achieve precise testing.
-
-QAQA is the artifact for paper [Natural Test Generation for Precise Testing of Question Answering Software](https://github.com/ShenQingchao/QAQA/blob/master/Natural%20Test%20Generation%20for%20Precise%20Testing%20of%20Question%20Answering%20Software.pdf), which have accepted by ASE'22.
+QAQA is a QA software testing technique, which can generate natural test inputs and achieve precise testing.
+This repo is the artifact for paper [Natural Test Generation for Precise Testing of Question Answering Software](https://github.com/ShenQingchao/QAQA/blob/master/Natural%20Test%20Generation%20for%20Precise%20Testing%20of%20Question%20Answering%20Software.pdf), which have accepted by ASE'22.
 
 
 
