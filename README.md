@@ -45,4 +45,12 @@ For the results of manual labeling about **false positive** and **naturalness** 
 
 ## Citation
 Please cite our paper if this work is useful for you.
+```
+@incollection{shen2022natural,
+  title={Natural Test Generation for Precise Testing of Question Answering Software},
+  author={Shen, Qingchao and Chen, Junjie and Zhang, Jie and Wang, Haoyu and Liu, Shuang and Tian, Menghan},
+  booktitle={IEEE/ACM Automated Software Engineering (ASE)},
+  year={2022}
+}
+```
 
