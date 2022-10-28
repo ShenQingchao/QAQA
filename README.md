@@ -13,6 +13,7 @@ This repo is the artifact for paper [Natural Test Generation for Precise Testing
 3. install all python dependent packages for QAQA
 ```
 pip install -r requirements.txt
+
 # install nltk dependenct packages
 python
 import nltk
