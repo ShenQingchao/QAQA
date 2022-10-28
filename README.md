@@ -13,6 +13,12 @@ This repo is the artifact for paper [Natural Test Generation for Precise Testing
 3. install all python dependent packages for QAQA
 ```
 pip install -r requirements.txt
+# install nltk dependenct packages
+python
+import nltk
+nltk.download('averaged_perceptron_tagger')
+nltk.download('punkt')
+exit()
 ```
 4. unzip the file benepar_en3.zip in 3rd_models
 ```
