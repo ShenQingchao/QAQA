@@ -9,7 +9,7 @@ This repo is the artifact for paper [Natural Test Generation for Precise Testing
 ### Environment build
 
 1. download all datasets from this [Link](https://drive.google.com/drive/folders/18tbGI89R3S9YIYRPHxIZcv6drQCJZ6RE?usp=sharing) and put it in the root directory
-2. build SLAHAN environment following the tutorial [SLAHAN](https://github.com/kamigaito/SLAHAN)  # you can ignore this step due to the temp results have been saved in this repo.
+2. build SLAHAN environment following the tutorial [SLAHAN](https://github.com/kamigaito/SLAHAN)  # you can ignore this step, because the temp results have been saved in this repo.
 3. install all python dependent packages for QAQA with 'python=3.8.3'
 ```
 pip install -r requirements.txt
