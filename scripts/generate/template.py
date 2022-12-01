@@ -42,21 +42,6 @@ def add_extra2question(question, extra_sent):
                                      "Someone told me that " + extra_sent + ', ' + question,  # 706
                                      "I've heard a whisper that " + extra_sent + ', ' + question,  # 707
                                      ]
-    # the above is add redundant 'sentence', the below is add redundant 'question'!!!
-    '''
-    "I'm not sure if " + extra_sent + ', but' + question,  # 787
-    "I'm not sure whether " + extra_sent + ', but' + question,  # 829
-
-    "I do not care if " + extra_sent + ', but ' + question,  # 661
-    "Nobody cares if " + extra_sent + ', but ' + question,  # 672
-    # "No one cares if " + extra_sent + ', but ' + question,  # 655
-
-    "Put aside if " + extra_sent + ', ' + question,  # 668
-    "Regardless of if " + extra_sent + ", " + question,  # 669
-
-    "It doesn't matter if " + extra_sent + ", " + question,  # 697
-    question[:-1] + " regardless of whether " + extra_sent + " or not?",  # 830
-    '''
     new_question = random.choice(extra2_question_template_list)
     # new_question = extra2_question_template_list  # template evaluate
     return new_question
