@@ -144,7 +144,7 @@ if __name__ == '__main__':
 
             if 'EQ' == this_attack:
                 new_question = obj.Q
-                if project_name == 'boolq' and random.randint(0, 1) == 1:   # [WARNING] add negative attack!!!
+                if project_name == 'boolq' and random.randint(0, 1) == 1:   
                     new_question = negative_question(new_question)
                 new_question = add_extra2question(new_question, selected_sent_processed)
                 new_predict_res = run_predict(new_question + '\n '+obj.C)[0]  # ('+obj.T+')
